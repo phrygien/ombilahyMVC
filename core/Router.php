@@ -30,9 +30,8 @@ class Router
         if($callback === false)
         {
             echo "Not found";
+            exit;
         }
-        echo '<pre>';
-        var_dump($callback);
-        echo '</pre>';
+        echo call_user_func($callback);
     }
 }
