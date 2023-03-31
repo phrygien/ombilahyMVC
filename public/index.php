@@ -9,9 +9,7 @@ $app->router->get('/', function (){
     return 'Tongasoa';
 });
 
-$app->router->get('/contact', function (){
-    return 'Contact';
-});
+$app->router->get('/contact', 'contact');
 
 
 $app->run();
