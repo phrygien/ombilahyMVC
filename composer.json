@@ -1,0 +1,17 @@
+{
+    "name": "mecen/ombilahy-phpmvc-framework",
+    "description": "Ombilahy PHP MVC Framework developed by Mecene Phrygien",
+    "autoload": {
+        "psr-4": {
+            "ombilahy\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mecene Phrygien",
+            "email": "mecenephrygien@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
